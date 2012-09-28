@@ -1,0 +1,117 @@
+/* @override http://www.macrabbit.com/cssedit/welcome/2.5/welcome.css */
+
+/*body {
+	background: url(../images/EspressoWithDoodles.tiff) no-repeat fixed;
+	background-position: 50% 75%;
+	-webkit-user-select: none;
+	font: 12px "Lucida Grande";
+}
+
+#label {
+	position: fixed;
+	top: 85%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	text-shadow: rgba(255,255,255,0.5) 0 1px 0;
+	color: rgba(0,0,0,0.75);
+	cursor: pointer;
+}*/
+body {
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+
+nav{
+	overflow: hidden;
+	width: 1355px;	
+	background: url('../images/dblock.jpeg') repeat;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	background: rgba(255,255,255,.3);
+	width: 130px;
+	height: 80px;
+	margin: 10px;
+	text-align: center;
+	position: relative;
+}
+li:hover {
+	background: rgba(255,255,255,.5);
+}
+li.tilt:hover img{
+	-webkit-transform: rotate(30deg);
+}
+li.tilt:hover img{
+	-webkit-transform: rotate(30deg);
+}
+li.jump:hover img{
+	-webkit-transform: translateY(-10px);
+}
+
+li.sword,li.skin,li.seed,li.news{
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 60px;
+	
+}
+li img {
+	width: 60px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 0;
+}
+li.pick {
+	background-image: url('../images/DiamondPick.png');
+	}
+
+li.sword{
+	background-image: url('../images/DIAMONDSWORD.png');
+	
+}
+li.block{
+		background-image: url('../images/grassblock.png');
+}
+li.skin{
+	background-image: url('../images/skinfaceman.png');
+}
+li.seed{
+	background-image: url('../images/seed.png');
+
+}
+li.news{
+	background-image: url('../images/newsfeed-icon.png');
+}
+li.me{
+	background-image: url('../images/me.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 40px;
+}
+li.mbuds{
+	background-image: url('../images/mbuds.png')
+}
+li, body {
+	font-family: 'Nothing You Could Do', cursive;
+}
+h1,h2,h3 {
+	font-family: 'Old Standard TT', serif;
+}
+nav a {
+	height: 100%;
+	width: 100%;
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+.jspContainer {
+	padding-bottom: 16px;
+}
